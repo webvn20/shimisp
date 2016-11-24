@@ -1,0 +1,135 @@
+.home-header {
+	background: #fafafa;
+	border: 1px solid #e5e5e5;
+	margin-top: 15px;
+	margin-bottom: 18px;
+	position: relative;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.home-header ul{
+	margin:0px;
+	list-style:none;
+	display: inline-block;
+	float: right;
+	padding: 8px;
+}
+.home-header ul li{
+	float:left;
+}
+.home-header ul li a {
+	font-size: 13.5px;
+    color: #7b7b7b;
+    padding: 0px 15px;
+}
+.home-header ul li a:hover{
+	color: #00b7f1;
+}
+.home-header h2 {
+	background: #05b2e9;
+	padding: 0 3px 0 9px;
+	height: 100%;
+	position: relative;
+	margin: 0;
+	float: left;
+	-webkit-border-radius: 3px 0 0 3px;
+	-moz-border-radius: 3px 0 0 3px;
+	border-radius: 3px 0 0 3px;
+}
+.home-header h2 a {
+	font-size: 13px;
+	line-height: 36px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+	display: block;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+}
+.home-header h2:after {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 18px solid transparent;
+    border-left: 13px solid #05b2e9;
+    border-right: 0 solid transparent;
+    border-bottom: 18px solid transparent;
+    position: absolute;
+    top: 0;
+    right: -13px;
+}
+@media (min-width: 992px){
+	.home-header h2 {
+		padding: 0 20px 0 15px;
+	}
+	.home-header h2 a {
+		font-size: 18px;
+		font-weight: 700;
+	}
+}
+@media(max-width: 992px){
+	.home-header ul li a{
+		    padding: 0px 6px;
+	}
+}
+.product-care-content {
+    margin-top: 15px;
+}
+.item {
+    z-index: 1;
+}
+.product-item-mini {
+    padding: 15px 0;
+    border-bottom: 1px solid #e2e2e2;
+    font-size: 16px;
+    width: 100%;
+    float: left;
+}
+.product-item-mini .product-thumb {
+    float: left;
+    margin-right: 15px;
+}
+.product-item-mini .product-content .product-title {
+    font-size: 16px;
+    color: #333333;
+    line-height: 23px;
+    height: 46px;
+    overflow: hidden;
+    display: block;
+}
+.product-item-mini .price-label {
+    display: none !important;
+}
+.product-item-mini .product-content .price-box .special-price .price, .product-item-mini .product-content .price-box .regular-price .price {
+    font-weight: 500;
+    color: #e22323;
+}
+.product-item-mini .price-label {
+    display: none !important;
+}
+.article-item-mini {
+    padding: 15px 0;
+    border-bottom: 1px solid #e2e2e2;
+    font-size: 14px;
+    width: 100%;
+    float: left;
+}
+.article-item-mini .article-thumb {
+    float: left;
+    margin-right: 15px;
+}
+.article-item-mini .article-content .article-title {
+    font-size: 14px;
+    color: #333333;
+    line-height: 23px;
+    max-height: 46px;
+    overflow: hidden;
+    display: block;
+}
+.article-item-mini .article-content .post-date {
+    font-size: 13px;
+    color: #a3a3a3;
+}
